@@ -1,0 +1,17 @@
+*/__pycache__
+.env
+.vscode/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.pt
+*.pth
+checkpoints/
+logs/
+wandb/
+.ipynb_checkpoints/
+data/
+datasets/
+*.log
