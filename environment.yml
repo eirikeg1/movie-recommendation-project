@@ -1,0 +1,33 @@
+name: movie-recommendation
+channels:
+  - pytorch
+  - pyg
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.12
+
+  # Core ML Libraries
+  - pytorch>=2.0.0
+  - pytorch-cuda=12.1
+  - pyg>=2.5.0
+
+  # PyG Optional Dependencies (from pyg channel)
+  - pyg::pyg-lib
+  - pyg::torch-sparse
+  - pyg::torch-scatter
+  - pyg::torch-cluster
+  - pyg::torch-spline-conv
+
+  # Data Processing
+  - numpy>=1.24.0
+  - pandas>=2.0.0
+
+  # Visualization
+  - matplotlib>=3.7.0
+  - seaborn>=0.12.0
+
+  # Utilities
+  - tqdm>=4.65.0
+  - python-dotenv>=1.0.0

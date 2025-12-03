@@ -1,0 +1,21 @@
+# NOTE: Conda is recommended. See environment.yml for conda installation.
+# For pip users: Install core dependencies first, then install PyG packages separately.
+
+# Core ML Libraries
+torch>=2.0.0
+torch-geometric>=2.5.0
+
+# PyG Optional Dependencies - Must be installed separately:
+# pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.4.0+cu121.html
+
+# Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Utilities
+tqdm>=4.65.0
+python-dotenv>=1.0.0
